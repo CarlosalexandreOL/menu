@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    background-color: black;
+}
