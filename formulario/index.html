@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="estile/style.css">
+</head>
+<body>
+    <section id="posiçao">
+        <section id="fundo">
+            <form action="" method="get" autocomplete="on">
+                <div>
+                    <label for="pnome">Nome:</label>
+                    <input type="text" name="pnome" id="pnome" required minlength="5" maxlength="22" autocomplete="name" placeholder="seu nome">
+                </div>
+                <div>
+                    <label for="pemail">Email:</label>
+                    <input type="email" name="pemail" id="pemail" required autocomplete="email" placeholder="xxx@xxx">
+                </div>
+                <div>
+                    <label for="ptelefone">Telefone:</label>
+                    <input type="tel" name="ptelefone" id="ptelefone" required autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-{4}$" placeholder="(xx)xxxx-xxxx"> <!--Expresão regular-->
+                </div>
+                <div>
+                    <input class="direita" type="submit" value="Enviar">
+                    <input class="direita" type="reset" value="Limpar">
+                </div>
+            </form>
+        </section>
+    </section>
+</body>
+</html>
