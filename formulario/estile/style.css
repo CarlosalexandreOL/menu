@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+
+
 *{
     margin: 0;
     padding: 0;
@@ -8,24 +10,60 @@
 }
 
 body{
+    background-image: url(../imagens/bitcoins.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
     width: 100vw;
     height: 100vh;
 }
 
+header{
+    background-image: linear-gradient(to bottom, rgb(68, 61, 2), transparent);
+}
+
+nav{
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 1.6rem;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+li{
+    position: relative;
+    display: inline-block;
+}
+
+a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+
+
 section#posiçao{
-    height: 100vh;
+    height: 75vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 section#fundo{
-    background-color: rgba(0, 0, 0, 0.082);
+    background-color: rgba(0, 0, 0, 0.774);
     border-radius: 10px;
     padding: 48px;
     width: 335px;
     height: 431px;
-    box-shadow: 4px 6px 9px rgba(0, 0, 0, 0.342);
+    box-shadow: 4px 6px 9px rgb(0, 0, 0);
 
 }
 
@@ -38,6 +76,7 @@ label{
     margin:-26.2px;
     padding: 8px;
     font-weight: bold;
+    color: white;
 }
 
 input{
